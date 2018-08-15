@@ -1,0 +1,8 @@
+How can you find the maximum depth of a BST?
+
+
+Recursivly go down the tree, comparing the depths of the paths from each node.
+
+How can you determine what the least common ancestor of two nodes is? 
+Using DFS, traverse the tree checking for the child nodes, returning the child if the node is found, use returning  null. 
+
