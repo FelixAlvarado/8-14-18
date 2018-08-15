@@ -32,4 +32,24 @@ one dowside is tha tit takes more hard drive space and you fordfeit the use of s
 
 What does using 'memcache' do for you? 
 
-Stores whatever you want in RAM
+Stores whatever you want in RAM. Keeps things in a LRC cache. 
+
+How do computers synchronize their clocks? 
+
+1. computers cna have a GPS antenna to where tehy sync to GPS satelies 
+
+2 send a different clock wave with the data
+
+3. combine the clock and data using different symbols to represent data 
+
+What happens when clocks become unsynchronized? 
+
+parts of the data will be missed because the clock is off (clock split) 
+
+How do two computers ensure that the signal tha tis sent btween them is interpreted correctly? 
+
+By making sure their clocks are synched. 
+
+What is manchester coding?
+
+Combining clocks with data to make sure that different computer clocks are synched when transmitting data. 
