@@ -20,3 +20,16 @@ boolean
 numberstring
 objet
 symbol
+
+How can you solve the sticky-session issure without shared file storage on teh back-end? 
+
+You can use cookies that store a hashed number of the id of the server the user was using w;hen they were last on teh site. 
+
+Explain why you might want to compile and store static HTML pages for soemthing like a craislit post 
+
+Using static html pages allow for better performance (especially with so many posts). It also allows for changes to be easily made. 
+one dowside is tha tit takes more hard drive space and you fordfeit the use of some features. 
+
+What does using 'memcache' do for you? 
+
+Stores whatever you want in RAM
